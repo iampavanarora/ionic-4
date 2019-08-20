@@ -1,1 +1,19 @@
-
+.jp-popups {
+    .popover-content {
+        // padding: 16px;
+        --max-width: 85%;
+        --width: 85%;
+        overflow: hidden;
+        .header-primary {
+            --background: var(--ion-color-primary);
+            --color: var(--ion-color-white);
+        }
+        ion-content {
+            overflow: auto;
+            max-height: calc(100vh - 208px);
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
